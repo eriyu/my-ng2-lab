@@ -8,6 +8,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TourModule } from './tour/tour.module';
+import { TicketModule } from './ticket/ticket.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TourModule } from './tour/tour.module';
     FormsModule,
     HttpModule,
     NgbModule.forRoot(),
-    TourModule
+    TourModule,
+    TicketModule
   ],
   providers: [],
   bootstrap: [AppComponent]
