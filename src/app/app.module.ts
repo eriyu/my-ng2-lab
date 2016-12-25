@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TourModule } from './tour/tour.module';
 import { TicketModule } from './ticket/ticket.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TicketModule } from './ticket/ticket.module';
     HttpModule,
     NgbModule.forRoot(),
     TourModule,
-    TicketModule
+    TicketModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
